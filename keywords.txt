@@ -1,6 +1,6 @@
 #######################################
-# Syntax Coloring Map For Arduino_PortentaBreakout
-####################################### 
+# Syntax Coloring Map For Custom_PortentaBreakout
+#######################################
 # Class (KEYWORD1)
 #######################################
 
@@ -17,16 +17,21 @@ UART3	KEYWORD1
 SPI_0	KEYWORD1
 RTClock KEYWORD1
 Timestamp KEYWORD1
+Debouncing KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
-#######################################	
+#######################################
 
 pinMode	KEYWORD2
 digitalWrite	KEYWORD2
 digitalRead	KEYWORD2
 setFromUnixTimestamp KEYWORD2
 getUnixTimestamp KEYWORD2
+release KEYWORD2
+click KEYWORD2
+toggle KEYWORD2
+press KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
