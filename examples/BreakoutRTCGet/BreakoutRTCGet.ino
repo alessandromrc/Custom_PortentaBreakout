@@ -10,7 +10,7 @@
 
   This example code is in the public domain.
 */
-#include <Arduino_PortentaBreakout.h>
+#include <custom_PortentaBreakout.h>
 
 Timestamp utcTime;
 
@@ -37,6 +37,6 @@ void loop() {
   Serial.println(utcTime.minute());
   Serial.print("seconds: ");
   Serial.println(utcTime.second());
-  
+
   delay(1000);
 }

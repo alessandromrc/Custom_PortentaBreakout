@@ -11,7 +11,7 @@
 
   This example code is in the public domain.
 */
-#include <Arduino_PortentaBreakout.h>
+#include <custom_PortentaBreakout.h>
 
 
 breakoutPin pin = analog.A7;

@@ -1,7 +1,7 @@
 /*
   This example reads audio data from the connected PDM microphone, and prints
-  out the RMS value of the samples to the Serial console. The Serial Plotter 
-  built into the Arduino IDE can be used to plot the audio data (Tools -> 
+  out the RMS value of the samples to the Serial console. The Serial Plotter
+  built into the Arduino IDE can be used to plot the audio data (Tools ->
   Serial Plotter)
 
   Circuit:
@@ -10,7 +10,7 @@
   This example code is in the public domain.
 */
 
-#include <Arduino_PortentaBreakout.h>
+#include <custom_PortentaBreakout.h>
 
 // default number of output channels
 static const char channels = 1;
@@ -34,7 +34,7 @@ void setup() {
 
   // Configure BufferSize to 4096 bytes
   Breakout.PDM.setBufferSize(4096);
-  
+
   // Optionally set the gain, default value is 24
   Breakout.PDM.setGain(24);
 
@@ -55,7 +55,7 @@ void loop() {
     double rms = RMS(sampleBuffer, samplesRead);
 
     Serial.println(rms);
-    
+
     // Clear the read count
     samplesRead = 0;
   }
