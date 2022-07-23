@@ -10,7 +10,7 @@
   This example code is in the public domain.
 */
 
-#include <custom_PortentaBreakout.h>
+#include <Custom_PortentaBreakout.h>
 
 // default number of output channels
 static const char channels = 1;

@@ -16,7 +16,7 @@
 
  */
 
-#include <custom_PortentaBreakout.h>
+#include <Custom_PortentaBreakout.h>
 
 // Enter a MAC address and IP address for your controller below.
 // The IP address will be dependent on your local network:

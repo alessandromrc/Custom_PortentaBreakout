@@ -9,7 +9,7 @@
 
   This example code is in the public domain.
 */
-#include "custom_PortentaBreakout.h"
+#include "Custom_PortentaBreakout.h"
 
 void setup() {
   Serial.begin(9600);

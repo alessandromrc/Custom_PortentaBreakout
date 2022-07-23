@@ -9,7 +9,7 @@
 
   This example code is in the public domain.
 */
-#include <custom_PortentaBreakout.h>
+#include <Custom_PortentaBreakout.h>
 
 breakoutPin Analog_Pin = analog.A0;
 const int ANALOG_RESOLUTION = 16;
